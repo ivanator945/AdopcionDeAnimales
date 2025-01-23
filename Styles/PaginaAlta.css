@@ -12,8 +12,8 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     opacity: 0;
     transform: translateY(30px);
-    animation: fadeInUp 1s ease-out forwards; /* Animación de entrada suave */
-    transition: box-shadow 0.3s ease; /* Transición para sombra */
+    animation: fadeInUp 1s ease-out forwards; 
+    transition: box-shadow 0.3s ease; 
 }
 
 /* Animación de desvanecimiento y desplazamiento suave hacia arriba */
@@ -26,8 +26,8 @@
 
 /* Efecto de iluminación en el bloque al pasar el ratón */
 #formulario:hover {
-    box-shadow: 0 0 20px rgba(72, 255, 96, 0.8); /* Resplandor verde suave */
-    transform: translateY(-5px); /* Desplazamiento hacia arriba */
+    box-shadow: 0 0 20px rgba(72, 255, 96, 0.8); 
+    transform: translateY(-5px); 
 }
 
 /* Encabezado del formulario */
@@ -36,7 +36,7 @@
     color: #4CAF50;
     margin-bottom: 20px;
     text-align: center;
-    animation: fadeInUp 1s ease-out forwards 0.3s; /* Retardo suave */
+    animation: fadeInUp 1s ease-out forwards 0.3s; 
 }
 
 /* Inputs del formulario */
@@ -50,14 +50,14 @@
     box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
     opacity: 0;
     transform: translateY(10px);
-    animation: fadeInUp 1s ease-out forwards 0.6s; /* Animación con retardo */
+    animation: fadeInUp 1s ease-out forwards 0.6s; 
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 /* Efecto de iluminación en los inputs al pasar el ratón */
 #formulario .input:hover {
-    box-shadow: 0 0 10px rgba(20, 20, 20, 0.945); /* Brillo suave */
-    transform: translateY(-2px); /* Levanta ligeramente el campo */
+    box-shadow: 0 0 10px rgba(20, 20, 20, 0.945); 
+    transform: translateY(-2px); 
 }
 
 /* Botones */
@@ -77,9 +77,9 @@
 /* Efecto al pasar el ratón por encima de los botones */
 #formulario .button:hover {
     background-color: #45a049;
-    transform: translateY(-3px); /* Efecto de desplazamiento */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más intensa */
-    animation: glow 3s ease-out infinite alternate; /* Efecto de resplandor */
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    animation: glow 3s ease-out infinite alternate; 
 }
 
 /* Animación de resplandor en los botones */
@@ -114,7 +114,7 @@
     color: #333;
     margin: 20px 0 10px;
     text-align: center;
-    animation: fadeInUp 1s ease-out forwards 0.9s; /* Animación con retardo */
+    animation: fadeInUp 1s ease-out forwards 0.9s; 
 }
 
 /* Ajustes de otros elementos */

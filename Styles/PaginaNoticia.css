@@ -85,13 +85,13 @@
     border-radius: 5px;
     text-align: center;
     pointer-events: none;
-    transition: transform 0.3s ease, font-size 0.3s ease; /* Transición para el texto */
+    transition: transform 0.3s ease, font-size 0.3s ease;
 }
 
 /* Aumentar el texto cuando el ratón pasa sobre el contenedor de la imagen */
 .image-container:hover h4 {
-    transform: translate(-50%, -50%) scale(1.2); /* Aumenta el tamaño del texto */
-    font-size: 2rem; /* Tamaño de fuente más grande */
+    transform: translate(-50%, -50%) scale(1.2); 
+    font-size: 2rem; 
 }
 
 /* Contenedor personalizado para la galería de videos */

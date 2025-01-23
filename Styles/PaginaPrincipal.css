@@ -66,8 +66,8 @@ body {
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     animation: fadeInUp 1s ease-in-out;
-    opacity: 0; /* Inicialmente invisible */
-    animation-fill-mode: forwards; /* Mantiene el estado final */
+    opacity: 0; 
+    animation-fill-mode: forwards; 
 }
 
 /* Imagen */
@@ -76,7 +76,7 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    transition: transform 0.3s ease-in-out; /* Suaviza el efecto de hover */
+    transition: transform 0.3s ease-in-out; 
 }
 
 /* Texto encima de la imagen */
@@ -93,13 +93,13 @@ body {
     border-radius: 5px;
     text-align: center;
     pointer-events: none;
-    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out; /* Transiciones suaves */
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out; 
 }
 
 /* Hover sobre el contenedor */
 .image-container:hover h4 {
-    transform: translate(-50%, -50%) scale(1.2); /* Aumenta el texto */
-    font-size: 1.8rem; /* Cambia el tamaño del texto */
+    transform: translate(-50%, -50%) scale(1.2);
+    font-size: 1.8rem; 
 }
 
 /* Animación de entrada */
