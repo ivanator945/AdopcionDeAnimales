@@ -10,6 +10,24 @@
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s ease-out forwards; /* Animación de entrada suave */
+    transition: box-shadow 0.3s ease; /* Transición para sombra */
+}
+
+/* Animación de desvanecimiento y desplazamiento suave hacia arriba */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Efecto de iluminación en el bloque al pasar el ratón */
+#formulario:hover {
+    box-shadow: 0 0 20px rgba(72, 255, 96, 0.8); /* Resplandor verde suave */
+    transform: translateY(-5px); /* Desplazamiento hacia arriba */
 }
 
 /* Encabezado del formulario */
@@ -18,22 +36,33 @@
     color: #4CAF50;
     margin-bottom: 20px;
     text-align: center;
+    animation: fadeInUp 1s ease-out forwards 0.3s; /* Retardo suave */
 }
 
 /* Inputs del formulario */
 #formulario .input {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
     box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 1s ease-out forwards 0.6s; /* Animación con retardo */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto de iluminación en los inputs al pasar el ratón */
+#formulario .input:hover {
+    box-shadow: 0 0 10px rgba(20, 20, 20, 0.945); /* Brillo suave */
+    transform: translateY(-2px); /* Levanta ligeramente el campo */
 }
 
 /* Botones */
 #formulario .button {
-    padding: 10px 20px;
+    padding: 12px 24px;
     margin: 10px;
     font-size: 1rem;
     border: none;
@@ -41,11 +70,26 @@
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Efecto al pasar el ratón por encima de los botones */
 #formulario .button:hover {
     background-color: #45a049;
+    transform: translateY(-3px); /* Efecto de desplazamiento */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más intensa */
+    animation: glow 3s ease-out infinite alternate; /* Efecto de resplandor */
+}
+
+/* Animación de resplandor en los botones */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 50px rgba(236, 89, 4, 0.945);
+    }
+    100% {
+        box-shadow: 0 0 90px rgb(129, 243, 144);
+    }
 }
 
 /* Radio buttons y checkboxes */
@@ -70,14 +114,7 @@
     color: #333;
     margin: 20px 0 10px;
     text-align: center;
-}
-
-/* Archivo de imagen */
-.fotodeperfil {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 1rem;
-    color: #4CAF50;
+    animation: fadeInUp 1s ease-out forwards 0.9s; /* Animación con retardo */
 }
 
 /* Ajustes de otros elementos */
