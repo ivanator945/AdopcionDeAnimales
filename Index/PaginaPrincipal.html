@@ -37,25 +37,37 @@
     
 
     <div class="container">
-        <!-- Barra lateral izquierda -->
+       <!-- Barra lateral izquierda -->
         <aside class="sidebar-left">
             <h2>Publicidad</h2>
-            <img src="../Img/playStation.jpg" alt="Anuncio 1">
-            <h4>¡PlayStation!</h4>
-            <p>llevatela con un solo click: <a href="https://www.playstation.com/es-es/">Click aqui</a></p>
+            <a href="https://www.miscota.es/perros/musqui/pelota-de-tenis-azul-para-perros" target="_blank">
+                <img src="../Img/pelota.jpeg" alt="Anuncio 1">
+            </a>
+            <h4>¡Pelota!</h4>
+            <p>Llévatela con un solo clic: <a href="https://www.miscota.es/perros/musqui/pelota-de-tenis-azul-para-perros" target="_blank">Click aquí</a></p>
+
             <h2>Publicidad</h2>
-            <img src="../Img/Camara.jpeg" alt="Anuncio 2">
-            <h4>¡Camara de fotos!</h4>
-            <p>llevate La Camara: <a href="https://www.nikon.es/es_ES">Click aqui</a></p>
+            <a href="https://www.amazon.es/golosinas-perros/s?k=golosinas+perros" target="_blank">
+                <img src="../Img/chuche.jpeg" alt="Anuncio 2">
+            </a>
+            <h4>¡Chuches Para Perros!</h4>
+            <p>El mejor alimento para el perro: <a href="https://www.amazon.es/golosinas-perros/s?k=golosinas+perros" target="_blank">Click aquí</a></p>
+
             <h2>Publicidad</h2>
-            <img src="../Img/gafas de sol.jpeg" alt="Anuncio 3">
-            <h4>¡Gafas de sol!</h4>
-            <p>llevatelas Cuanto Antes: <a href="https://www.visionlab.es/?gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3rxcvxLy1xD0n4-K58oVLQ0o3JfjcJsLV7jYAXpgmfhbIqPYCW_pNRUaAn3GEALw_wcB">Click aqui</a></p>
+            <a href="https://collarofsweden.com/es-sp/products/cuenco-perro-verde?currency=EUR&gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3rwLhTgpkJt7yGHacVhpLm0ctyDc8y7q9TgsRGHodcusJo476TQl8LAaAh2IEALw_wcB&variant=47519929074012" target="_blank">
+                <img src="../Img/cuenco.webp" alt="Anuncio 3">
+            </a>
+            <h4>¡Cuenco De Perro!</h4>
+            <p>Llévatelos cuanto antes: <a href="https://collarofsweden.com/es-sp/products/cuenco-perro-verde?currency=EUR&gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3rwLhTgpkJt7yGHacVhpLm0ctyDc8y7q9TgsRGHodcusJo476TQl8LAaAh2IEALw_wcB&variant=47519929074012" target="_blank">Click aquí</a></p>
+
             <h2>Publicidad</h2>
-            <img src="../Img/juguetes para perros.jpeg" alt="Anuncio 4">
-            <h4>¡Jugetes para perros!</h4>
-            <p>llevatelos A Su Mascota: <a href="https://www.amazon.es/s?k=juguetes+para+perros">Click aqui</a></p>
+            <a href="https://www.amazon.es/s?k=juguetes+para+perros" target="_blank">
+                <img src="../Img/juguetes para perros.jpeg" alt="Anuncio 4">
+            </a>
+            <h4>¡Juguetes Para Perros!</h4>
+            <p>Llévatelos a su mascota: <a href="https://www.amazon.es/s?k=juguetes+para+perros" target="_blank">Click aquí</a></p>
         </aside>
+
         
 
         <!-- Contenido central -->
@@ -118,25 +130,30 @@
                     </div>
                 </div>
             </div>
-        
+            <h2 class="contenido-mas">Contenido De Mas</h2>
             <form>
                 <div class="survey-container">
                     <form>
                         <!-- Sección de Lugar, Día, Hora (estilo clásico) -->
                         <h3>Lugar</h3>
-                        <input type="radio" name="lugar" value="Salamanca" id="Salamanca" required><label for="Salamanca">Salamanca</label>
-                        <input type="radio" name="lugar" value="Sevilla" id="Sevilla" required><label for="Sevilla">Sevilla</label>
-                        <input type="radio" name="lugar" value="Madrid" id="Madrid" required><label for="Madrid">Madrid</label>
+                        <input type="radio" name="lugar" value="Salamanca" id="Salamanca" required>
+                        <label for="Salamanca">Salamanca</label>
+                        <input type="radio" name="lugar" value="Sevilla" id="Sevilla" required>
+                        <label for="Sevilla">Sevilla</label>
+                        <input type="radio" name="lugar" value="Madrid" id="Madrid" required>
+                        <label for="Madrid">Madrid</label>
             
                         <h3>Día</h3>
-                        <input type="radio" name="dia" value="22Marzo" id="22Marzo" required><label for="22Marzo">22 de Marzo</label>
-                        <input type="radio" name="dia" value="20Marzo" id="20Marzo" required><label for="20Marzo">20 de Marzo</label>
-                        <input type="radio" name="dia" value="18Marzo" id="18Marzo" required><label for="18Marzo">18 de Marzo</label>
+                        <input type="date" name="fechaNacimiento" id="fechaNacimiento" class="input">
+                        <br>
             
                         <h3>Hora</h3>
-                        <input type="radio" name="hora" value="16pm" id="16pm" required><label for="16pm">16pm</label>
-                        <input type="radio" name="hora" value="18pm" id="18pm" required><label for="18pm">18pm</label>
-                        <input type="radio" name="hora" value="20pm" id="20pm" required><label for="20pm">20pm</label>
+                        <input type="radio" name="hora" value="10pm" id="10pm" required>
+                        <label for="10pm">10pm</label>
+                        <input type="radio" name="hora" value="12pm" id="12pm" required>
+                        <label for="12pm">12pm</label>
+                        <input type="radio" name="hora" value="18pm" id="18pm" required>
+                        <label for="18pm">18pm</label>
             
                         <button type="submit">Enviar</button>
                     </form>
@@ -188,22 +205,34 @@
         <!-- Barra lateral derecha -->
         <aside class="sidebar-right">
             <h2>Publicidad</h2>
-            <img src="../Img/camisas.jpeg" alt="Anuncio 5">
-            <h4>¡Camisas!</h4>
-            <p>llevatelas Asi De Facil: <a href="https://www.elcorteingles.es/moda-hombre/ropa/camisas/">Click aqui</a></p>
+            <a href="https://www.amazon.es/Rawhui-Lanzador-Autom%C3%A1tico-Interactiva-Lanzadora/dp/B0D1YF4SN9" target="_blank">
+                <img src="../Img/tirador.jpeg" alt="Anuncio 5">
+            </a>
+            <h4>¡Tirador automático!</h4>
+            <p>Llévatelo así de fácil: <a href="https://www.amazon.es/Rawhui-Lanzador-Autom%C3%A1tico-Interactiva-Lanzadora/dp/B0D1YF4SN9" target="_blank">Click aquí</a></p>
+
             <h2>Publicidad</h2>
-            <img src="../Img/coches.jpeg" alt="Anuncio 6">
-            <h4>¡Coches!</h4>
-            <p>llevatelos Con Ofertas: <a href="https://www.coches.net/segunda-mano/?st=1&stc=sem-google-73%3Avo_sem_generic-coches&gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3ry7-vP4z5cR-ITtFI1jaFVkROX0PtSOFKXqhTegUW0b7Vq3aClp62oaAlKQEALw_wcB">Click aqui</a></p>
+            <a href="https://mascoboutique.com/mordedor-cuerda-para-perro-serpiente.html" target="_blank">
+                <img src="../Img/mordedor.jpeg" alt="Anuncio 6">
+            </a>
+            <h4>¡Mordedor!</h4>
+            <p>Llévatelo con ofertas: <a href="https://mascoboutique.com/mordedor-cuerda-para-perro-serpiente.html" target="_blank">Click aquí</a></p>
+
             <h2>Publicidad</h2>
-            <img src="../Img/peluches.jpeg" alt="Anuncio 7">
-            <h4>¡Peluches!</h4>
-            <p>llevatelos 2x1: <a href="https://www.elcorteingles.es/juguetes/peluches/">Click aqui</a></p>
+            <a href="https://es.funnyfuzzy.com/products/dog-bed-fuzzy-round?variant=45197377798371&utm_source=Google&utm_medium=CPC&utm_campaign=Google+Shopping&currency=EUR&country=ES&dm_cam=22040087450&dm_grp=177566110052&dm_ad=725887419970&dm_kw=&dm_net=adwords&tw_source=google&tw_adid=725887419970&tw_campaign=22040087450&gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3rx4zW-GUk4e4F0BhESZQy6t_kYtbNAOtvau0ESQsfYlpVq-eWWldvwaAlCTEALw_wcB" target="_blank">
+                <img src="../Img/cama.webp" alt="Anuncio 7">
+            </a>
+            <h4>¡Cama!</h4>
+            <p>Llévatela 2x1: <a href="https://es.funnyfuzzy.com/products/dog-bed-fuzzy-round?variant=45197377798371&utm_source=Google&utm_medium=CPC&utm_campaign=Google+Shopping&currency=EUR&country=ES&dm_cam=22040087450&dm_grp=177566110052&dm_ad=725887419970&dm_kw=&dm_net=adwords&tw_source=google&tw_adid=725887419970&tw_campaign=22040087450&gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3rx4zW-GUk4e4F0BhESZQy6t_kYtbNAOtvau0ESQsfYlpVq-eWWldvwaAlCTEALw_wcB" target="_blank">Click aquí</a></p>
+
             <h2>Publicidad</h2>
-            <img src="../Img/teclados.jpg" alt="Anuncio 8">
-            <h4>¡Teclados!</h4>
-            <p>llevatelos Con Un Regalo Extra: <a href="https://www.pccomponentes.com/teclados?s_kwcid=AL!14405!3!701992152885!b!!g!!teclados&gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3rxBj05Kz1ib-Ly99EUH07lJEm4R5yLev9wrJkxNQu7NBCQBoklGx-IaAnMjEALw_wcB">Click aqui</a></p>
+            <a href="https://www.tiendanimal.es/perros/pienso-para-perros/pienso-royal-canin/?utm_source=google&utm_medium=cpc&utm_campaign=is_ta_es_ec_pmax_alimentacion_mdf_royal-canin&utm_id=19344074091&gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3rwsCIzl729Fl2YoPel5qmFHU9Ufu_cK56yx65vqtnmPLncVWig1IG4aAp3aEALw_wcB" target="_blank">
+                <img src="../Img/pienso.jpeg" alt="Anuncio 8">
+            </a>
+            <h4>¡Piensos!</h4>
+            <p>Llévatelos con un regalo extra: <a href="https://www.tiendanimal.es/perros/pienso-para-perros/pienso-royal-canin/?utm_source=google&utm_medium=cpc&utm_campaign=is_ta_es_ec_pmax_alimentacion_mdf_royal-canin&utm_id=19344074091&gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3rwsCIzl729Fl2YoPel5qmFHU9Ufu_cK56yx65vqtnmPLncVWig1IG4aAp3aEALw_wcB" target="_blank">Click aquí</a></p>
         </aside>
+
     </div>
     <div class="footer-bar">
         📞 Teléfono: <a href="tel:+123456789">+34 234 567 89</a> | ✉️ Correo: <a href="mailto:info@adopcion.com">info@adopcion.com</a>

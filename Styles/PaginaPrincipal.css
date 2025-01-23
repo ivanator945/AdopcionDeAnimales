@@ -1,3 +1,11 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
 /* Contenido central */
 .content-center {
     width: 70%;
@@ -5,6 +13,7 @@
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    margin: 20px auto;
 }
 
 .verde {
@@ -14,6 +23,7 @@
 .content-center h2 {
     color: #4CAF50;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .testimonials1 {
@@ -175,7 +185,7 @@
     max-width: 600px;
     box-sizing: border-box;
     margin-bottom: 50px;
-    margin-left: 24%;
+    margin-left: 195px;
     background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
 }
 
@@ -255,4 +265,32 @@
 
 .options label span {
     font-size: 2rem;
+}
+
+/* Estilos para el campo de fecha */
+.input-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus {
+    border-color: #5a9bff;
+    outline: none;
+}
+
+.form-label {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
 }
