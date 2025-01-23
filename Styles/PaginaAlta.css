@@ -121,3 +121,19 @@
 #formulario div {
     width: 100%;
 }
+
+.animal-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 10px; /* Espaciado entre los elementos */
+    justify-items: center; /* Centrar horizontalmente cada elemento */
+    margin: 20px 0;
+}
+
+.animal-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espacio entre el checkbox y el emoji */
+    font-size: 1.2rem; /* Tamaño del texto */
+    cursor: pointer;
+}
