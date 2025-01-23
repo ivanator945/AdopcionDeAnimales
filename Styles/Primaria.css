@@ -43,28 +43,26 @@ body {
     padding: 5px;
 }
 
-
 /* Animaciones */
 @keyframes fadeIn {
-    0% {
+    from {
         opacity: 0;
     }
-    100% {
+    to {
         opacity: 1;
     }
 }
 
 @keyframes slideIn {
-    0% {
+    from {
         transform: translateY(-50px);
         opacity: 0;
     }
-    100% {
+    to {
         transform: translateY(0);
         opacity: 1;
     }
 }
-
 
 /* Cabecera fija */
 header {
@@ -79,9 +77,11 @@ header {
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-#menu1{
+
+#menu1 {
     text-align: center;
 }
+
 header .menu {
     position: relative;
     display: flex;
@@ -95,7 +95,7 @@ header .menu {
     padding: 10px;
     font-size: 1rem;
     cursor: pointer;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .dropdown {
@@ -107,10 +107,10 @@ header .menu {
     width: 200px;
     z-index: 100;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    overflow: hidden; 
-    max-height: 0; 
-    opacity: 0; 
-    transition: max-height 0.3s ease, opacity 0.3s ease; 
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 
 .dropdown a {
@@ -126,8 +126,7 @@ header .menu {
 
 /* Mostrar el menú al pasar el ratón */
 header .menu:hover .dropdown {
-    display: block; 
-    max-height: 300px; 
+    max-height: 300px;
     opacity: 1;
 }
 
@@ -141,20 +140,20 @@ header .date {
     margin-top: 20px;
     gap: 10px;
     padding: 5px;
-    
 }
 
 /* Barras laterales */
-.sidebar-left, .sidebar-right {
+.sidebar-left,
+.sidebar-right {
     width: 15%;
     padding: 10px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
-.sidebar-left img, .sidebar-right img {
+.sidebar-left img,
+.sidebar-right img {
     width: 100%;
     margin-top: 10px;
     max-height: 150px;
