@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/Primaria.css">
+    <link rel="stylesheet" href="../Styles/PaginaAlta.css">
+    <link rel="stylesheet" href="../Styles/EstilosGaleria.css">
+    <title>Adopcion De Animales</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Adopción de Animales</h1>
+            <p>¡Haz una diferencia en la vida de un animal hoy mismo!</p>
+        </div>
+    </div>
+    <header>
+        <div class="menu">
+         
+        </div>
+        <h1>Adopción de Animales</h1>
+        <div class="date">
+            <p id="current-date"></p>
+        </div>
+    </header>
+    <main>
+    
+        <div id="formulario">
+        <form>
+        <input type="text" name="Nombre" id="nombre" class="input" required placeholder="Nombre"> &nbsp;&nbsp;&nbsp; 
+        <input type="text" name="Apellidos" id="apellidos" class="input" required placeholder="Apellidos">
+        <br>
+        <input type="text" name="DNI" id="DNI" class="input" required placeholder="DNI" pattern="\d{8}[A-Z]">
+        <br>
+        <input type="text" name="Direccion" id="direccion" class="input" required placeholder="Dirección: C/NombreCalle  Nºnum  P letraPuerta " pattern="C/[A-z]+\sNº\d+\sP[A-Z]">
+        <br>
+        <input type="text" name="Ciudad" id="ciudad" class="input" required placeholder="Ciudad">&nbsp;&nbsp;
+        <input type="text" list="cod_postales" name="CodPostal" id="codpostal" class="input" required placeholder="Cod.Postal" pattern="\d{5}">&nbsp;&nbsp;
+        <input type="text" name="Pais" id="pais" class="input" required placeholder="País">
+        <br>
+        <datalist id="cod_postales">
+          <option value="21001"></option>
+          <option value="26773"></option>
+          <option value="02849"></option>
+          <option value="45903"></option>
+          <option value="49377"></option>
+      </datalist>
+        <input type="date" name="fechaNacimiento" id="fechaNacimiento" class="input">
+        <br>
+        <input type="email" name="email" id="email" class="input" placeholder="Correo Electrónico" pattern=".+@.+.es$">
+        <br>
+        <input type="password" name="contraseña" id="contraseña" class="input" required placeholder="Contraseña" pattern="_[a-z]{1,7}_[a-z0-9]{5}&[0-9]{2}$">
+        <br>
+        <h2>Elija el sexo:</h2>
+        <div class="radio-input">
+          <input value="Macho" name="value-radio" id="Macho" type="radio">
+          <label for="Macho">Macho</label>
+          <input value="Hembra" name="value-radio" id="Hembra" type="radio">
+          <label for="Hembra">Hembra</label>
+          <input value="Españolll" name="value-radio" id="Españolll" type="radio">
+          <label for="Españolll">Españolll</label>
+        </div>
+        <h2>Elige mas animales  </h2>
+        <div class="center">
+          <input name="checkbox" type="checkbox">🐶 &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+          <input name="checkbox" type="checkbox">🦎
+          <br>
+          <input name="checkbox" type="checkbox">🐰 &nbsp;&nbsp;&nbsp;
+          <input name="checkbox" type="checkbox">🐟
+          <br>
+          <input name="checkbox" type="checkbox">🦜 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input name="checkbox" type="checkbox">🦀 
+          <br>
+        </div>
+        <br><br>
+        <input type="text" name="otro" id="otro" class="input" placeholder="Otro">
+        <br><br>
+        <label for="fotoperfil" class="fotodeperfil">Añadir foto de perfil</label>
+        <input id="fotoperfil" type="file" accept="image/png, image/jpeg"/><br>
+        <br>
+        <br>
+        <button class="button" type="submit" onclick="location.href='PaginaPrincipal.html'">Enviar</button>
+        <button class="button" type="reset">Borrar</button>
+        <button class="button" type="button" onclick="location.href='PaginaPrincipal.html'">Cancelar</button>
+        </form>
+        </div>
+    </main>
+
+    <div class="footer-bar">
+        📞 Teléfono: <a href="tel:+123456789">+34 234 567 89</a> | ✉️ Correo: <a href="mailto:info@adopcion.com">info@adopcion.com</a>
+    </div>
+</body>
+</html>
