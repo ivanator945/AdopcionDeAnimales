@@ -6,6 +6,9 @@ body {
     padding: 0;
 }
 
+.verde{
+    margin-left: -80px;
+}
 /* Contenido central */
 .content-center {
     width: 70%;
