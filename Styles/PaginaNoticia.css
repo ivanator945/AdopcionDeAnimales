@@ -1,0 +1,127 @@
+/* Contenido central */
+.content-center {
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 250px;
+}
+.verde{
+    margin-right: 155px;
+}
+.news{
+    text-align: center;
+    color: #4CAF50;
+}
+
+.testimonials1{
+    color: #4CAF50;
+}
+.content-center h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.content-center p {
+    margin-bottom: 15px;
+}
+
+.content-center ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.content-center img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.content-center iframe {
+    border-radius: 10px;
+}
+.gallery {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Contenedor de imágenes con texto */
+.image-container {
+    position: relative;
+    width: 300px; 
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen */
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Texto encima de la imagen */
+.image-container h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    pointer-events: none; 
+}
+
+/* Contenedor personalizado para la galería de videos */
+.custom-video-section {
+    position: relative; 
+    margin: 20px auto;
+    max-width: 90%; 
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Galería de videos */
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+/* Elementos individuales dentro de la galería */
+.video-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px; 
+}
+
+.video-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.video-item iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

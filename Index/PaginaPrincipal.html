@@ -1,13 +1,212 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Styles/PaginaPrincipal.css">
     <link rel="stylesheet" href="../Styles/Primaria.css">
-    <title>Adopcion De Animales </title>
+    <link rel="stylesheet" href="../js/Animaciones.js">
+    <title>Adopción de Animales</title>
+    
 </head>
 <body>
+    <!-- Fondo con título -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Adopción de Animales</h1>
+            <p>¡Haz una diferencia en la vida de un animal hoy mismo!</p>
+        </div>
+    </div>
+
+    <!-- Cabecera fija con menú -->
+    <header>
+        <div class="menu">
+            <button class="menu-button">Menú</button>
+            <div class="dropdown">
+                <a href="../Index/PaginaAlta.html">Pagina Alta</a>
+                <a href="../Index/PaginaNoticia.html">Noticias</a>
+                <a href="https://www.zooplus.es/?utm_source=google&utm_medium=google_nonbrand&utm_campaign=91388351&utm_term=tienda%20mascotas&utm_content=152481091638&utm_id=91388351_152481091638&mkt_source=16243&gad_source=1&gclid=Cj0KCQiAy8K8BhCZARIsAKJ8sfSAPXlfct5PVQa8XnrFt0PUjq0A-2BUe1HMUsXmu5-YzuDOhpzSkEkaAoulEALw_wcB">Articulos Para Animales</a>
+                <a href="https://www.seguroparaperros.com/blog/como-adoptar-perro-espana">Cómo Adoptar</a>
+            </div>
+        </div>
+        <h1 class="verde">Adopción de Animales</h1>
+        <div class="date">
+            <p id="current-date"></p>
+        </div>
+    </header>
     
+
+    <div class="container">
+        <!-- Barra lateral izquierda -->
+        <aside class="sidebar-left">
+            <h2>Publicidad</h2>
+            <img src="../Img/playStation.jpg" alt="Anuncio 1">
+            <h4>¡PlayStation!</h4>
+            <p>llevatela con un solo click: <a href="https://www.playstation.com/es-es/">Click aqui</a></p>
+            <h2>Publicidad</h2>
+            <img src="../Img/Camara.jpeg" alt="Anuncio 2">
+            <h4>¡Camara de fotos!</h4>
+            <p>llevatela con un solo click: <a href="https://www.nikon.es/es_ES">Click aqui</a></p>
+            <h2>Publicidad</h2>
+            <img src="../Img/gafas de sol.jpeg" alt="Anuncio 3">
+            <h4>¡Gafas de sol!</h4>
+            <p>llevatela con un solo click: <a href="https://www.visionlab.es/?gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3rxcvxLy1xD0n4-K58oVLQ0o3JfjcJsLV7jYAXpgmfhbIqPYCW_pNRUaAn3GEALw_wcB">Click aqui</a></p>
+            <h2>Publicidad</h2>
+            <img src="../Img/juguetes para perros.jpeg" alt="Anuncio 4">
+            <h4>¡Jugetes para perros!</h4>
+            <p>llevatela con un solo click: <a href="https://www.amazon.es/s?k=juguetes+para+perros">Click aqui</a></p>
+        </aside>
+        
+
+        <!-- Contenido central -->
+        <main class="content-center">
+            <h2>¡Adopta y cambia una vida!</h2>
+            <p>Adoptar un animal no solo cambia la vida del animal, sino también la tuya. Miles de perros, gatos y otros animales esperan encontrar un hogar amoroso. Infórmate sobre el proceso y da el primer paso para ser un héroe para ellos.</p>
+            
+            <h2>Beneficios de la adopción</h2>
+            <ul>
+                <li>Reduces el número de animales en refugios.</li>
+                <li>Recibes un compañero leal y agradecido.</li>
+                <li>Contribuyes a disminuir la cría irresponsable de mascotas.</li>
+                <li>Ahorras dinero, ya que las mascotas adoptadas suelen estar vacunadas y esterilizadas.</li>
+            </ul>
+            
+            <h2>El Antes Y El Despues</h2>
+            <div class="gallery">
+                <div class="image-container" id="Feliz">
+                    <h4>Antes De Ser Adoptado</h4>
+                    <img src="../Img/perrera.jpg" alt="perrera">
+                </div>
+                <div class="image-container" id="Adoptado">
+                    <h4>Una Vez Adoptado</h4>
+                    <img src="../Img/adoptado.jpeg" alt="Gato adoptado">
+                </div>
+                <div class="image-container" id="Familia">
+                    <h4>Familia Del Adoptado</h4>
+                    <img src="../Img/familia.jpeg" alt="Familia con mascota">
+                </div>
+            </div>
+            <br>
+            <h2>Testimonios de adopción</h2>
+            <div class="testimonials">
+                <p><span class="testimonials1">- Laura P: </span> "Me sentia sola, pero desde que conoci a rayo todo cambio en mi vida ya no me puedo separar de el."</p>
+                <p><span class="testimonials1">- Miguel H: </span> "Un buen regalo, mi hija queria un animal. ¡Ahora no para de jugar con el!."</p>
+                <p><span class="testimonials1">- Ana G: </span> "Me recomendo el medico adoptar un animal para apoyo emocional. ¡Funciono!"</p>
+            </div>
+        
+            <h2>¿Cómo adoptar?</h2>
+            <p>El proceso de adopción es sencillo. Aquí te explicamos los pasos básicos:</p>
+            <ol>
+                <li>Visita tu refugio local o consulta las páginas web de organizaciones de adopción.</li>
+                <li>Revisa los perfiles de los animales disponibles para adopción.</li>
+                <li>Realiza una entrevista o solicitud para asegurarte de que el animal se adapta a tu hogar.</li>
+                <li>Una vez aprobada la adopción, lleva a tu nuevo amigo a casa.</li>
+            </ol>
+        <br>
+            <h2>Videos sobre adopción</h2>
+            <p>Aquí tienes algunos videos inspiradores que te ayudarán a conocer más sobre la adopción de animales:</p>
+        
+            <div class="custom-video-section">
+                <div class="video-gallery">
+                    <div class="video-item">
+                        <h3>El Impacto De Adoptar </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/S2HjYdB1neY?si=7auLMjl32dzOGpaR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <h3>Historias de adopción</h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/oqi1ZJWbW_Q?si=YRP3w_jBvAShZUD3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        
+            <form>
+                <div class="survey-container">
+                    <form>
+                        <!-- Sección de Lugar, Día, Hora (estilo clásico) -->
+                        <h3>Lugar</h3>
+                        <input type="radio" name="lugar" value="Salamanca" id="Salamanca" required><label for="Salamanca">Salamanca</label>
+                        <input type="radio" name="lugar" value="Sevilla" id="Sevilla" required><label for="Sevilla">Sevilla</label>
+                        <input type="radio" name="lugar" value="Madrid" id="Madrid" required><label for="Madrid">Madrid</label>
+            
+                        <h3>Día</h3>
+                        <input type="radio" name="dia" value="22Marzo" id="22Marzo" required><label for="22Marzo">22 de Marzo</label>
+                        <input type="radio" name="dia" value="20Marzo" id="20Marzo" required><label for="20Marzo">20 de Marzo</label>
+                        <input type="radio" name="dia" value="18Marzo" id="18Marzo" required><label for="18Marzo">18 de Marzo</label>
+            
+                        <h3>Hora</h3>
+                        <input type="radio" name="hora" value="16pm" id="16pm" required><label for="16pm">16pm</label>
+                        <input type="radio" name="hora" value="18pm" id="18pm" required><label for="18pm">18pm</label>
+                        <input type="radio" name="hora" value="20pm" id="20pm" required><label for="20pm">20pm</label>
+            
+                        <button type="submit">Enviar</button>
+                    </form>
+                    
+                <p>¿Qué tipo de animal adoptarías primero?</p>
+                <div class="options">
+                    <input type="radio" id="perro" name="animal" value="perro">
+                    <label for="perro">
+                        <span>🐶</span>
+                        Perro
+                    </label>
+        
+                    <input type="radio" id="gato" name="animal" value="gato">
+                    <label for="gato">
+                        <span>🐱</span>
+                        Gato
+                    </label>
+        
+                    <input type="radio" id="conejo" name="animal" value="conejo">
+                    <label for="conejo">
+                        <span>🐰</span>
+                        Conejo
+                    </label>
+        
+                    <input type="radio" id="ave" name="animal" value="ave">
+                    <label for="ave">
+                        <span>🦜</span>
+                        Ave
+                    </label>
+        
+                    <input type="radio" id="pez" name="animal" value="pez">
+                    <label for="pez">
+                        <span>🐟</span>
+                        Pez
+                    </label>
+        
+                    <input type="radio" id="reptil" name="animal" value="reptil">
+                    <label for="reptil">
+                        <span>🦎</span>
+                        Reptil
+                    </label>
+                </div>
+                <button type="submit">Votar</button>
+            </form>
+            
+
+        </main>
+
+        <!-- Barra lateral derecha -->
+        <aside class="sidebar-right">
+            <h2>Publicidad</h2>
+            <img src="../Img/camisas.jpeg" alt="Anuncio 5">
+            <h4>¡Camisas!</h4>
+            <p>llevatelas con un solo click: <a href="https://www.elcorteingles.es/moda-hombre/ropa/camisas/">Click aqui</a></p>
+            <h2>Publicidad</h2>
+            <img src="../Img/coches.jpeg" alt="Anuncio 6">
+            <h4>¡Coches!</h4>
+            <p>llevatelos con un solo click: <a href="https://www.coches.net/segunda-mano/?st=1&stc=sem-google-73%3Avo_sem_generic-coches&gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3ry7-vP4z5cR-ITtFI1jaFVkROX0PtSOFKXqhTegUW0b7Vq3aClp62oaAlKQEALw_wcB">Click aqui</a></p>
+            <h2>Publicidad</h2>
+            <img src="../Img/peluches.jpeg" alt="Anuncio 7">
+            <h4>¡Peluches!</h4>
+            <p>llevatelos con un solo click: <a href="https://www.elcorteingles.es/juguetes/peluches/">Click aqui</a></p>
+            <h2>Publicidad</h2>
+            <img src="../Img/teclados.jpg" alt="Anuncio 8">
+            <h4>¡Teclados!</h4>
+            <p>llevatelo con un solo click: <a href="https://www.pccomponentes.com/teclados?s_kwcid=AL!14405!3!701992152885!b!!g!!teclados&gad_source=1&gclid=Cj0KCQiA7se8BhCAARIsAKnF3rxBj05Kz1ib-Ly99EUH07lJEm4R5yLev9wrJkxNQu7NBCQBoklGx-IaAnMjEALw_wcB">Click aqui</a></p>
+        </aside>
+    </div>
+    <div class="footer-bar">
+        📞 Teléfono: <a href="tel:+123456789">+34 234 567 89</a> | ✉️ Correo: <a href="mailto:info@adopcion.com">info@adopcion.com</a>
+    </div>
 </body>
 </html>
